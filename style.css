@@ -348,3 +348,107 @@ li {
 }
 
 /* Why Choose Us section style  end */
+/* Deals & Discounts section style start */
+.Discounts {
+    background-image: url('./Images/Group\ 39.png');
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 56px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Deals-Discounts {
+    margin: 100px auto 24px;
+}
+
+.Deals-Discounts h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Deals-des {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 643px;
+    margin: 24px auto 48px;
+
+}
+
+
+.icon>span>i {
+    margin-right: 8px;
+    color: #FF5400;
+    width: 24px;
+    height: 24px;
+
+}
+
+.icon>span>small {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.icon>span {
+    margin-right: 24px;
+}
+
+.book-now-card {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+}
+
+.tour h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 18px auto;
+}
+
+.tour p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.tour h4 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.Discounts-2nd {
+    background-image: url('./Images/Group\ 40.png');
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 56px;
+    margin: 24px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.packages {
+    text-align: center;
+    margin: 60px auto 100px;
+}
+
+/* Deals & Discounts section end */
