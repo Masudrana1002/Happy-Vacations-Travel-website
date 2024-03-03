@@ -452,3 +452,55 @@ li {
 }
 
 /* Deals & Discounts section end */
+/*  Perfect Place sectionn  start */
+.perfect-place {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perfect-place-content h2 {
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.perfect-place-content p {
+    width: 532px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.perfect-place-content>ul>li {
+    width: 518px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.video {
+    width: 610px;
+    height: 424px;
+
+    position: relative;
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 36px;
+    border: 2px solid red;
+}
+
+.video h3 {
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
