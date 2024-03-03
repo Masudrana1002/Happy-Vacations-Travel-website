@@ -506,6 +506,7 @@ li {
     left: 30%;
 }
 /* Perfect Place sectionn  end */
+
 /* newsletter-section style start */
 .newsletter-section {
     display: flex;
@@ -561,6 +562,55 @@ height: 100%;
 }
 
 /* newsletter-section style end */
+.discovers >p > i{
+    font-size: 50px;
+    color: #FF5400;
+    margin: 50px auto 20px;
+    width: 100%;
+    display: block;
+    
+}
+.discovers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.discover{
+    background-image: url('Images/44902.jpg');
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.discover h2{
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+    color:#FFF;
+}
+.discover P{
+    font-size: 20px;
+    font-weight: 500;
+    text-align:center;
+   
+    color:#FFF;
+}
+.discover >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.discover > div >i{
+    color: #FF5400;
+    font-size: 50px;
+}
 /* footer style start */
 footer{
     max-width: 1440px;
@@ -824,6 +874,26 @@ footer i {
     .newsletter-img{
    width: 90%;
 }
+.discovers >p > i{
+    font-size: 30px;
+    color: #FF5400;
+    margin: 50px auto 20px;
+    display: block;
+    
+}
+
+.discover{
+    width: 90%;
+    margin: 20px auto 40px;
+}
+.discover h2{
+    font-size: 32px;
+}
+.discover P{
+    font-size: 16px;
+
+}
+
 footer{
   width: 100%;  
   margin: 0 auto;
