@@ -201,3 +201,150 @@ li {
 }
 
 /*  Our Popular Tours section end */
+/* Choose Your Destination section style start */
+.img-gallery-content {
+    width: 70%;
+    margin: 100px auto 48px;
+    text-align: center;
+}
+
+.img-gallery-content h2 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.img-gallery-content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.img-gallery {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+
+}
+
+.img-gallery img {
+    width: 100%;
+    height: 300px
+}
+
+.img-1 {
+    grid-column: 1 / span 6;
+
+
+}
+
+.img-gallery div {
+    position: relative;
+}
+
+.img-gallery p {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-2 {
+    grid-column: 7 / span 6;
+
+
+}
+
+.img-3 {
+    grid-column: 1 / span 4;
+
+}
+
+.img-4 {
+    grid-column: 5 / span 5;
+
+}
+
+.img-5 {
+    grid-column: 10 / span 3;
+
+}
+
+.img-6 {
+    grid-column: 1 / span 6;
+
+}
+
+.img-7 {
+    grid-column: 7 / span 6;
+
+
+}
+
+/* Choose Your Destination section end  */
+/* Why Choose Us section style  start */
+.Choose-us-content h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 100px auto 0;
+}
+
+.Choose-us-content p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 643px;
+    margin: 24px auto 48px;
+
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+}
+
+.card {
+    width: 573px;
+    height: 284px;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.card h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 16px auto;
+}
+
+.card p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    width: 486px;
+}
+
+.card-1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+/* Why Choose Us section style  end */
