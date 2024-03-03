@@ -165,3 +165,39 @@ input::placeholder {
 }
 
 /* Banner section style End*/
+/*  Our Popular Tours section start */
+.popular-tousr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.popular-tousr-content {
+    padding-right: 50px;
+    width: 50%;
+}
+
+.popular-tousr-content h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-tousr-content p,
+li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.popular-tours-img {
+    width: 50%;
+}
+
+.popular-tours-img img {
+    width: 100%;
+}
+
+/*  Our Popular Tours section end */
