@@ -592,7 +592,9 @@ footer i {
     background: rgba(19, 19, 24, 0.10);
 
 }
-
+.toggle-btn{
+    display: none;
+}
 /* responsive */
 @media only screen and (max-width: 600px) {
 
@@ -603,7 +605,25 @@ footer i {
     .nav-manu {
         display: none;
     }
-
+    .toggle-btn > li > a{
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .toggle-btn > li {
+       list-style: none;
+    }
+    .toggle:hover .toggle-btn{
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        background-color: #4f1f0674;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+    }
     nav,
     .popular-tousr {
         width: 90%;
